@@ -15,9 +15,24 @@ hr {
     border: 1px solid #D8C858;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: sans-serif;
     text-align: center;
+}
+
+dt {
+    float: left;
+    width: 150px;
+}
+
+dd {
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+input[type="radio"]:first-child {
+    margin-left: 110px;
 }
 
 input[type="submit"] {
